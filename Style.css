@@ -1,0 +1,192 @@
+        body {
+      font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('update.jpg'); 
+    background-size: cover;
+    background-position: auto;
+    background-attachment: fixed;
+        }
+@font-face {
+  font-family: 'italic';
+  font-style: NORMAL_OR_ITALIC;
+  font-weight: NUMERIC_WEIGHT_VALUE;
+  src: url(Inter-VariableFont_opsz,wght.ttf) format('woff2');
+}
+        .navbar {
+          
+            display: flex;
+            align-items: center;
+            background-color: #7FFF00;
+            padding: 10px;
+           
+        }
+
+        .navbar .menu-icon {
+            cursor: pointer;
+            margin-right: 20px;
+            padding: 10px;
+            background-color: orange;
+            border-radius: 5px;
+        }
+
+        .navbar .menu-icon div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 5px 0;
+        }
+
+        .menu {
+            position: fixed;
+            top: 5px;
+            left: -250px;
+            width: 250px;
+            height: 100%;
+            background-color: #7FFF00;
+            transition: left 0.3s ease;
+            padding-top: 60px;
+            z-index: 1000;
+        }
+
+        .menu a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            margin: 5px;
+        }
+
+        .menu a:hover {
+            background-color: #444;
+        }
+
+        .menu.active {
+            left: 0;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+                .marquee {
+            background-color: #A9A9A9;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+                .content {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            max-width: 1000px;
+           
+        }
+        .content #img {
+            max-width: 300px;
+            border-radius: 10px;
+            padding: 50px ;
+        }
+        .description  i {
+            font-size: 20px;
+            color: #fff;
+            max-width: 50%;
+            left: 0 5;
+        }
+      
+        .price {
+            position: absolute;
+            margin: 0;
+            right: 10px;
+            background-color: #FFF8DC;
+            padding: 5px 20px;
+            border-radius: 10px;
+            color: red;
+            font-size: 24px;
+        }
+        .order-button {
+            display: block;
+            width: 80%;
+            margin: 30px auto;
+            padding: 15px;
+            background-color: #5F9EA0;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .order-button:hover {
+            background-color: #007E33;
+        }
+footer {
+    background-color: #ADFF2F;
+    color: #00008B;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer-item {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-item h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-item ul li {
+    margin-bottom: 10px;
+}
+
+.footer-item ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-item ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: black;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #00BFFF;
+    font-size: 20px;
+}
+
