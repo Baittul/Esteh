@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ice tea mang yanto</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=italic:wght@200..900&display=swap">
+      <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <h1 style="color: #FF00FF;font-size:15px;">ICETEA-Z</h1>
+    </div>
+
+    <div class="menu" id="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+    <div class="marquee">
+        <marquee>Selamat datang di situs kami order pesan via whatsaap ice tea mang yanto perumahan bumi citra lestari depan Atm center</marquee>
+    </div>
+        <div class="content">
+        <img src="icetea4.png" alt="Ice Tea Segar">
+        <div class="price">
+          <span>Rp10,000</span>
+        </div>
+        <div class="description">
+          <i>
+            Nikmati es teh segar dan nikmat yang terbuat dari bahan-bahan berkualitas. Pesan sekarang dan rasakan kesegarannya!</i>
+            
+        </div>
+        
+    </div>
+
+    <a href="https://wa.me/6283137183981?text=Halo%20saya%20ingin%20pesan%20Ice%20Tea%20segar!" class="order-button">
+        Pesan Sekarang
+    </a>
+            <div class="content">
+              
+        <img src="icetea3.png" alt="Ice Tea Segar">
+        
+        <div class="description">
+          <i>
+           Nikmati es teh segar dan nikmat yang terbuat dari bahan-bahan berkualitas. Pesan sekarang dan rasakan kesegarannya!
+           </i>
+        </div>
+
+    </div>
+        
+    <a href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20pesan%20Ice%20Tea%20segar!" class="order-button">
+        Pesan Sekarang
+    </a>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item contact-info">
+                <p><i class="fas fa-map-marker-alt"></i>Almuslim</p>
+                <p><i class="fas fa-phone-alt"></i> Call: +6289512595271</p>
+                <p><i class="fas fa-envelope"></i>almuslimkarpet@gmail.com</p>
+            </div>
+            <div class="footer-item">
+                <h3>Usefull Link</h3>
+                <ul>
+                    <li><a href="#">almusliim</a></li>
+                    <li><a href="#">shopcard</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Repair</h3>
+                <p>The awards for design, creativity and innovation on the website’.</p>
+            </div>
+            <div class="footer-item">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3>Our Repair Center</h3>
+                <p>The awards for design, creativity and innovation on the Internet’</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2024 All Rights Reserved. Design by zipmsi </p>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            const overlay = document.getElementById('overlay');
+            menu.classList.toggle('active');
+            overlay.classList.toggle('active');
+        
+
+        }
+    </script>
+
+</body>
+</html>
