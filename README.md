@@ -6,7 +6,7 @@
     
     <title>ice tea mang yanto</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=italic:wght@200..900&display=swap">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="Style.css">
        <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
